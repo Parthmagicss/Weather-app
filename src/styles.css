@@ -1,0 +1,188 @@
+
+body {
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Header styles */
+  header {
+    background-color: #34495e;
+    padding: 1rem;
+    color: #ffffff;
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  nav li {
+    margin-right: 1rem;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1.2rem;
+    transition: all 0.3s ease;
+  }
+  
+  nav a:hover {
+    color: #f39c12;
+  }
+  
+  nav button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    color: #ffffff;
+    font-size: 1.2rem;
+    transition: all 0.3s ease;
+  }
+  
+  nav button:hover {
+    color: #f39c12;
+  }
+  
+  /* Home page styles */
+  .home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+  }
+  
+  .weather-card {
+    background-color: #ffffff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 1.5rem;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .weather-card h2 {
+    margin: 0;
+    font-size: 2rem;
+    font-weight: 500;
+  }
+  
+  .weather-card p {
+    margin: 0;
+    font-size: 1.2rem;
+    color: #95a5a6;
+  }
+  
+  .weather-icon {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+  }
+  
+  /* Favorites page styles */
+  .favorite-cities {
+    margin-top: 2rem;
+  }
+  
+  .favorite-city {
+    background-color: #ffffff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .favorite-city h3 {
+    margin: 0;
+    font-size: 1.8rem;
+  }
+  
+  .favorite-city p {
+    margin: 0;
+    font-size: 1.2rem;
+    color: #95a5a6;
+  }
+  
+  /* Temperature converter styles */
+  .temperature-converter {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .temperature-converter h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .temperature-converter div {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.5rem;
+  }
+  
+  .temperature-converter label {
+    margin-right: 1rem;
+    font-size: 1.2rem;
+  }
+  
+  .temperature-converter input {
+    padding: 0.5rem;
+    font-size: 1.2rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  /* Sign In page styles */
+  .sign-in-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+  }
+  
+  .sign-in-container h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .sign-in-container input {
+    padding: 0.5rem;
+    font-size: 1.2rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 0.5rem;
+  }
+  
+  .sign-in-container button {
+    padding: 0.5rem 1rem;
+    font-size: 1.2rem;
+    border: none;
+    background-color: #f39c12;
+    color: #ffffff;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .sign-in-container button:hover {
+    background-color: #e67e22;
+  }
+  
+  /* Media queries */
+  @media (max-width: 768px) {
+
+  }
+  
